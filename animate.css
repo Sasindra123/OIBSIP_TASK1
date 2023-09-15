@@ -1,0 +1,136 @@
+body {
+  background: #0072bb;
+  font-family: "Rubik", sans-serif;
+}
+
+.title-heading {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.whole-container {
+  display: flex;
+}
+
+.container {
+  background: #ffffff;
+  /* color: #8ab9f1; */
+  width: 400px;
+  height: 540px;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  /* margin-left: 20px; */
+  padding: 38px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result {
+  background: #b9d9eb;
+  color: #002147;
+  width: 100%;
+  height: 150px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+}
+.result p {
+  padding-right: 20px;
+  font-size: 40pt;
+  overflow-y: auto;
+  text-align: right;
+}
+
+.buttons {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+.button,
+.num-button {
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  /* border-radius: 50%; */
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+
+.zero {
+  grid-column: 1/ 3;
+  color: #0093af;
+  width: 100%;
+  font-size: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+
+.AC-btn {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.MC-btn {
+  /* background-color: #0072bb; */
+  font-size: 20px;
+  font-weight: bold;
+}
+.evalbtn {
+  color: #fff;
+  background-color: #002147;
+  cursor: pointer;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.zero,
+.AC-btn,
+.MC-btn,
+.button,
+.num-button {
+  color: #4997d0;
+}
+
+.AC-btn,
+.MC-btn,
+.evalbtn {
+  color: #fff;
+  background-color: #002147;
+}
+
+.MC-btn:hover {
+  color: #fff;
+  /* background-color: #a91101; */
+  background-color: #ce2029;
+}
+
+.AC-btn:hover {
+  background-color: #06b632;
+  color: #fff;
+}
+
+.evalbtn:hover {
+  color: #002147;
+  background-color: #0093af;
+}
+
+.digit-button {
+  color: #002147;
+  background-color: #0072bb;
+}
+/* 
+.calc-action-btn {
+  color: #0072bb;
+  background-color: #002147;
+} */
